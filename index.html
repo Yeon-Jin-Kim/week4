@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멋사 지원서</title>
+
+    <meta property="og:title" content="멋사 지원서">
+    <meta property="og:description" content="by Yeonjin Kim">
+    <meta property="og:image" content="./thumbnail.png">
+</head>
+
+<body>
+
+    <div>
+        <img src="thumbnail.png" width="150px">
+
+        <h1>연세대학교 멋쟁이사자처럼 12기 지원서</h1>
+
+        <p>내 아이디어를 내 손으로 구현해보고 싶다면 주목!<br>
+            <em>연세대학교 멋쟁이사자처럼</em>에서 12기 아기사자를 모집합니다.<br>
+            코딩 교육을 통해 자신의 아이디어를 서비스로 구현하고 나아가 창업을 꿈꾸는 분들의 많은 지원 부탁드립니다.
+        </p>
+
+        <hr>
+
+    </div>
+
+    <div>
+        <h2>1. 모집일정</h2>
+        <ul>
+            <li>서류 제출: 2/16 (금) 09:00 - 2/23 (금)</li>
+            <li>서류 합격자 발표: 2/26 (월) 오후 합격자 개별 공지</li>
+            <li>온라인 면접: 2/28 (수) - 2/29 (목)</li>
+            <li>최종 합격자 발표: 3/2 (토) 오후 합격자 개별 공지</li>
+        </ul>
+        <h2>2. 문의사항</h2>
+        <ul>
+            <li>
+                오픈채팅: <a href="https://open.kakao.com/o/goFAEZfg" target="_blank">
+                    바로가기
+                </a>
+            </li>
+            <li>
+                인스타그램: <a href="https://www.instagram.com/likelion_yonsei?igsh=MWxvaHRjMDlqMndwZg==" target="_blank">
+                    @likelion.yonsei
+                </a>
+            </li>
+        </ul>
+
+        <p><b><u>서류 제출 기간을 꼭 확인하신 후 기간 내 제출 부탁드립니다.</u></b></p>
+
+        <hr>
+    </div>
+
+    <div>
+        <form action="" method="post">
+            <fieldset>
+                <legend>
+                    <h2>지원자 정보</h2>
+                </legend>
+                <label for="username">이름</label>
+                <input type="text" id="username" required>
+                <br><br>
+                <label for="number">학번</label>
+                <input type="text" id="number" required>
+                <br><br>
+                <label for="birth">생년월일</label>
+                <input type="date" id="birth" required>
+                <br><br>
+                <label for="semaster">학년 및 학기</label>
+                <select id="semaster">
+                    <option value="1-1">1-1</option>
+                    <option value="1-2">1-2</option>
+                    <option value="2-1">2-1</option>
+                    <option value="2-2">2-2</option>
+                    <option value="3-1">3-1</option>
+                    <option value="3-2">3-2</option>
+                    <option value="4-1">4-1</option>
+                    <option value="4-2">4-2</option>
+                </select>
+                <br><br>
+                <label for="email">이메일</label>
+                <input type="email" id="email" required>
+                <br><br>
+                <label for="phone">휴대폰 번호</label>
+                <input type="tel" id="phone" required>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>트랙 선택/ 정기 조공 안내</h2>
+                </legend>
+                <p><b>지원하고자 하는 트랙을 선택해 주시기 바랍니다. (중복 선택 불가)</b></p>
+                <input type="radio" id="option1" name="options" value="fe">
+                <label for="option1">프론트엔드</label>
+                <input type="radio" id="option2" name="options" value="be">
+                <label for="option2">백엔드</label>
+                <p><b>멋쟁이사자처럼 학회원은 매달 최소 10만원씩 운영진에게 조공을 바쳐야 합니다.<br>얼마를 내시겠습니까?</b></p>
+                <label for="give">조공 금액:</label>
+                <input type="number" id="give" value="10" min="10" max="50" step="5" required>만원 (최대 50만원)
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>문항</h2>
+                </legend>
+                <ol>
+                    <li>
+                        <label for="Q1">지원 동기</label><br><br>
+                        <textarea name="Q1" rows="4" cols="100" required></textarea>
+                    </li><br>
+                    <li>
+                        <label for="Q2">협업 경험</label><br><br>
+                        <textarea name="Q2" rows="4" cols="100" required></textarea>
+                    </li><br>
+                    <li>
+                        <label for="Q3">만들고 싶은 서비스</label><br><br>
+                        <textarea name="Q3" rows="4" cols="100" placeholder="당신의 창의성을 맘껏 뽐내주세요!" required></textarea>
+                    </li><br>
+                    <li>
+                        <label for="Q4">코딩 공부에 얼마나 시간을 투자할 생각이신가요?</label><br><br>
+                        <textarea name="Q4" rows="2" cols="100" required></textarea>
+                    </li><br>
+                    <li>
+                        <label for="Q5">포트폴리오가 있다면 첨부해주세요.(선택사항)</label><br><br>
+                        <input type="file" id="Q5">
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>비대면 면접 참석 가능 시간</h2>
+                </legend>
+                <p><b>가능한 시간을 <em>모두 체크</em>해주세요!</b></p>
+                <ol>
+                    <li>
+                        <b>2/28</b><br>
+                        <input type="checkbox" id="option1" name="options" value="10">
+                        <label for="option1">10</label>
+                        <input type="checkbox" id="option2" name="options" value="11">
+                        <label for="option2">11</label>
+                        <input type="checkbox" id="option3" name="options" value="12">
+                        <label for="option3">12</label>
+                        <input type="checkbox" id="option4" name="options" value="1">
+                        <label for="option4">1</label>
+                        <input type="checkbox" id="option5" name="options" value="2">
+                        <label for="option5">2</label>
+                        <input type="checkbox" id="option6" name="options" value="3">
+                        <label for="option6">3</label>
+                    </li>
+                    <li>
+                        <b>2/29</b><br>
+                        <input type="checkbox" id="option7" name="options" value="10">
+                        <label for="option7">10</label>
+                        <input type="checkbox" id="option8" name="options" value="11">
+                        <label for="option8">11</label>
+                        <input type="checkbox" id="option9" name="options" value="12">
+                        <label for="option9">12</label>
+                        <input type="checkbox" id="option10" name="options" value="1">
+                        <label for="option10">1</label>
+                        <input type="checkbox" id="option11" name="options" value="2">
+                        <label for="option11">2</label>
+                        <input type="checkbox" id="option12" name="options" value="3">
+                        <label for="option12">3</label>
+                    </li>
+                </ol><br>
+            </fieldset>
+            <input type="submit" value="제출하기">
+            <input type="submit" value="취소하기">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
